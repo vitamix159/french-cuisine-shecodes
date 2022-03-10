@@ -1,24 +1,57 @@
 :root {
     --primary-color: rgb(155, 137, 255);
-    --secondaru-color:;
-    --additional-color:;
-
-    
+   
   }
 
-.paragraphs {
-    box-shadow: 3px 3px 10px rgba(0,0,0, 0.5);
-    border-radius: 10px;
-    background-color: var(--primary-color);
-    padding: 30px;
-}
+  body {
+      background: #EFFFFD;
+      font-family:'Courier New', Courier, monospace
+  }
 
+  header {
+      padding: 25px;
+      background: #CAF0F8;
+  }
 
-a {
-    text-decoration: none;
-    color: #000;
-    padding: 8px 15px;
-    background: var(--primary-color);
-    border-radius: 25px;
-    box-shadow: 3px 3px 10px rgba(0,0,0, 0.5);
-}
+  h1 {
+    font-size: 65px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+    h2 {
+        font-weight: bold;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+
+    .menu {
+      text-decoration: none;
+      color: #000;
+      padding: 8px 15px;
+      background: var(--primary-color);
+      border-radius: 25px;
+      box-shadow: 3px 3px 10px rgba(0,0,0, 0.5);
+    
+    }
+    .paragraphs {
+        box-shadow: 3px 3px 10px rgba(0,0,0, 0.5);
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        padding: 30px;
+    }
+
+    .contact {
+        display: block;
+        text-align: center;
+    }
+
+    .menu:hover {
+        background: #00B4D8;
+        padding: 12px 18px;
+        transition: all 200ms ease-in-out;
+    }
+    
+    
